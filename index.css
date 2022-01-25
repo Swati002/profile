@@ -17,11 +17,10 @@ body {
     margin-top: 2%;
     margin-bottom: 0.5%;
     font-family: 'Playfair', serif;
-    font-size: 2.5rem;
+    font-size: 3rem;
 }
 
 h1 {
-    color: rgb(41, 76, 172);
     margin-top: 8%;
     font-family: 'Playfair', serif;
     font-size: 2rem;
@@ -37,13 +36,14 @@ button {
     margin-top: 2rem;
     border: 1px solid rgb(41, 76, 172);
     background-color: rgb(41, 76, 172);
-    border-radius: 4px;
+    border-radius: 2px;
     padding: 8px 25px;
     text-align: center;
     align-items: center;
     height: fit-content;
     width: fit-content;
     margin-bottom: 5%;
+    font-family: 'Nunito', serif;
 }
 
 button a {
@@ -62,7 +62,7 @@ button a {
 }
 
 .contact {
-    margin: 0 25%;
+    margin: 0 15%;
 }
 
 .contact img {
@@ -84,11 +84,14 @@ footer {
     background-color: rgb(41, 76, 172);
     padding: 1%;
     font-family: 'Nunito', serif;
-    font-size: .75rem;
+    font-size: 1rem;
     color: #efefef;
 }
 
 @media screen and (max-width: 531px) {
+    .image img {
+        height: 25vh;
+    }
     button {
         padding: 6px 10px;
         margin-top: 4%;
@@ -97,10 +100,12 @@ footer {
     .name {
         font-size: 1.5rem;
     }
-    .dsgn,
     button a,
     footer {
-        font-size: .6rem;
+        font-size: .75rem;
+    }
+    .dsgn {
+        font-size: .75rem;
     }
     .about {
         font-size: .75rem;
