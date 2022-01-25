@@ -1,0 +1,132 @@
+body {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.home {
+    margin-top: 10%;
+}
+
+.image img {
+    width: 15%;
+    border-radius: 50%;
+}
+
+.name {
+    margin-top: 2%;
+    margin-bottom: 0.5%;
+    font-family: 'Playfair', serif;
+    font-size: 2.5rem;
+}
+
+h1 {
+    color: rgb(41, 76, 172);
+    margin-top: 8%;
+    font-family: 'Playfair', serif;
+    font-size: 2rem;
+    font-weight: 300;
+}
+
+.dsgn {
+    font-family: 'Nunito', serif;
+    font-size: 1rem;
+}
+
+button {
+    margin-top: 2rem;
+    border: 1px solid rgb(41, 76, 172);
+    background-color: rgb(41, 76, 172);
+    border-radius: 4px;
+    padding: 8px 25px;
+    text-align: center;
+    align-items: center;
+    height: fit-content;
+    width: fit-content;
+    margin-bottom: 5%;
+}
+
+button a {
+    font-family: 'Nunito', serif;
+    font-size: 1rem;
+    text-decoration: none;
+    color: #efefef;
+}
+
+.about {
+    font-family: 'Nunito', serif;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    margin: 0 25%;
+    margin-bottom: 5%;
+}
+
+.contact {
+    margin: 0 25%;
+}
+
+.contact img {
+    padding: 0.4rem;
+    background-color: #efefef;
+    border-radius: 50%;
+    margin: 1rem;
+    height: 42px;
+}
+
+hr {
+    border: dotted rgb(41, 76, 172);
+    border-bottom: none;
+    width: 4%;
+}
+
+footer {
+    margin-top: 5%;
+    background-color: rgb(41, 76, 172);
+    padding: 1%;
+    font-family: 'Nunito', serif;
+    font-size: .75rem;
+    color: #efefef;
+}
+
+@media screen and (max-width: 531px) {
+    .image img {
+        height: 23vh;
+        width: 30vw;
+        margin-bottom: 5%;
+    }
+    button {
+        padding: 6px 10px;
+        margin-top: 4%;
+    }
+    h1,
+    .name {
+        font-size: 1.5rem;
+    }
+    .dsgn,
+    button a,
+    footer {
+        font-size: .6rem;
+    }
+    .about {
+        font-size: .75rem;
+        line-height: normal;
+    }
+    footer {
+        padding: 10px;
+    }
+    .contact img {
+        padding: 0.2rem;
+        background-color: #efefef;
+        border-radius: 50%;
+        margin: .2rem;
+        height: 24px;
+    }
+}
+
+@media screen and (max-width: 768px) and (min-width:536px) {
+    .image img {
+        height: 40vh;
+        width: 30vw;
+        margin-bottom: 5%;
+    }
+}
