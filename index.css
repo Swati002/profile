@@ -96,7 +96,7 @@ footer {
 
 @media screen and (max-width: 531px) {
     .image img {
-        height: 25vh;
+        height: 40vh;
     }
     button {
         padding: 6px 10px;
